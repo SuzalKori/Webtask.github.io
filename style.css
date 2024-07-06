@@ -1,0 +1,347 @@
+body{
+    background-image: url(https://img.freepik.com/free-psd/realistic-sports-balls-frame-element_23-2150399180.jpg);
+    background-size: cover;
+}
+
+.block{
+    background-color:rgba(242, 144, 235, 0.3);
+    width: 300px;
+    display: none;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 100;
+    position: relative;
+    transition: 1s;
+}
+
+#exit{
+    position: absolute;
+    right: 0;
+    border: none;
+    background-color: transparent;
+}
+#exit:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+.exit_instrn{
+    position: absolute;
+    background-color: rgb(57, 45, 45);
+    right: 0;
+    margin-top: 27px;
+    margin-right: -5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    padding: 2px 3px 2px 3px;
+    color: aliceblue;
+    opacity: 0;
+}
+.exit:hover .exit_instrn{
+    opacity: 1;
+}
+.signup{
+    font-size: 25px;
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+}
+#firstname{
+    margin-bottom: 0px;
+    margin-left: 20px;
+    font-family: Arial;
+    opacity: 70%;
+}
+.first{
+    background-color: whitesmoke;
+    width:270px;
+    margin-left: 12px;
+    border-radius: 10px;
+    height:22px;
+    border:none;
+    box-shadow: 2px 2px 8px gray;
+}
+.firstname_input{
+    width:240px;
+    margin-left: 12px;
+    background-color: whitesmoke;
+    height:20px;
+    border:none;
+     
+}
+.firstname_input:focus{
+    outline: none;
+}
+.lastname{
+    margin-bottom: 0px;
+    margin-left: 20px;
+    font-family: Arial;
+    opacity: 70%;
+}
+.last{
+    background-color: whitesmoke;
+    width:270px;
+    margin-left: 12px;
+    border-radius: 10px;
+    height:22px;
+    border:none;
+    box-shadow: 2px 2px 8px gray;
+}
+.lastname_input{
+    width:240px;
+    margin-left: 12px;
+    background-color: whitesmoke;
+    height:20px;
+    border:none;
+}
+.lastname_input:focus{
+    outline:none;
+}
+.email{
+    margin-bottom: 0px;
+    margin-left: 20px;
+    font-family: Arial;
+    opacity: 70%;
+}
+.Email{
+    background-color: whitesmoke;
+    width:270px;
+    margin-left: 12px;
+    border-radius: 10px;
+    height:22px;
+    border:none;
+    box-shadow: 2px 2px 8px gray;
+}
+.Email_input{
+    width:240px;
+    margin-left: 12px;
+    background-color: whitesmoke;
+    height:20px;
+    border:none;
+}
+.Email_input:focus{
+    outline:none;
+}.password{
+    margin-bottom: 0px;
+    margin-left: 20px;
+    font-family: Arial;
+    opacity: 70%;
+}
+.pass{
+    background-color: whitesmoke;
+    width:270px;
+    margin-left: 12px;
+    border-radius: 10px;
+    height:22px;
+    border:none;
+    box-shadow: 2px 2px 8px gray;
+}
+.input_pass{
+    width:240px;
+    margin-left: 12px;
+    background-color: whitesmoke;
+    height:20px;
+    border:none;
+}
+.input_pass:focus{
+    outline: none;
+}
+
+.choose_sport_para{
+    margin-bottom: 0px;
+    margin-left: 20px;
+    font-family: Arial;
+    opacity: 70%;
+}
+
+.dropdown_list{
+    background-color: whitesmoke;
+    width:270px;
+    margin-left: 12px;
+    border-radius: 10px;
+    height:22px;
+    border:none;
+    box-shadow: 2px 2px 8px gray;
+}
+
+#sport{
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    width:250px;
+    margin-left: 12px;
+    height:22px;
+    border:none;
+}
+#sport:hover{
+    cursor: pointer;
+}
+
+.click_here{
+    font-family: Arial;
+    opacity: 70%;
+    border: none;
+}
+
+.gender{
+    margin-bottom: 0px;
+    margin-left: 20px;
+    font-family: Arial;
+    opacity: 70%;
+    width: 11%;
+}
+.checkbox{
+    margin-left: 25%;
+    margin-top: -19px;
+}
+
+#sport{
+    outline: none;
+}
+
+#sport:hover{
+    cursor: pointer;
+}
+
+#male:hover{
+    cursor: pointer;
+}
+.female{
+    margin-left: 8%;
+}
+
+#female:hover{
+    cursor: pointer;
+} 
+
+.label_male{
+    font-family: Arial;
+    opacity: 70%;
+}
+.label_female{
+    font-family: Arial;
+    opacity: 70%;
+}
+.contact1{
+    margin-bottom: 0px;
+    margin-left: 20px;
+    font-family: Arial;
+    opacity: 70%;
+    width: 11%;
+}
+.contact{
+    background-color: whitesmoke;
+    width:270px;
+    margin-left: 12px;
+    border-radius: 10px;
+    height:22px;
+    border:none;
+    box-shadow: 2px 2px 8px gray;
+}
+.contact_input{
+    width:240px;
+    margin-left: 12px;
+    background-color: whitesmoke;
+    height:20px;
+    border:none;
+}
+.contact_input:focus{
+    outline: none;
+}
+
+.signupdiv{
+    display: block;
+    height: 50px;
+    align-content: center;
+}
+.signup_button{
+    font-family: Arial;
+    font-size: large;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    color: black;
+    background-color: rgb(43, 233, 239);
+    z-index: index 1;
+    transition: .5s;
+}
+
+.signup_button:hover{
+    background-color: rgb(4, 247, 4);
+    transition: 0.5s;
+}
+
+.signup_button:active{
+    margin-top: 22.5px;
+    height: 25px;
+    font-size: medium;
+    width: 90px;
+    transition: .15s;
+}
+
+.front_page{
+    width: 400px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.signup_front_page{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    color: black;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: transparent;
+    border-color: black;
+}
+
+.signup_front_page:hover{
+    color:white;
+    background-color: black;
+    transition: 0.3s;
+    border-color: black;
+    cursor: pointer;
+}
+
+.signup_front_page:active{
+    height: 30px;
+    font-size: medium;
+    width: 90px;
+    transition: .15s;
+    margin: 5px 0px 0px 5px;
+    
+}
+
+.signup{
+    display: flex;
+}
+
+.signup_container{
+    width: 100px;
+    margin-left: 30%;
+}
+
+.block.show{
+    pointer-events: auto;
+    opacity: 1;
+    display: block;
+}
+
+.front_page.hide{
+    display: none;
+}
+
+#output{
+    color: rgb(242, 0, 234);
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+}
